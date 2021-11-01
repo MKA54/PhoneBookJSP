@@ -9,7 +9,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="05692297-d299-498c-bd5e-490706e76073" name="Changes" comment="" />
+    <list default="true" id="05692297-d299-498c-bd5e-490706e76073" name="Changes" comment="JSP" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,6 +22,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
     <option name="FILTER_WARNINGS" value="false" />
@@ -30,6 +33,7 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectId" id="208f4LDhC6qspNkKc9bUgpSFeAe" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -61,11 +65,46 @@
       <workItem from="1635687901159" duration="5625000" />
       <workItem from="1635766896192" duration="3810000" />
       <workItem from="1635780561525" duration="521000" />
-      <workItem from="1635781180342" duration="391000" />
+      <workItem from="1635781180342" duration="930000" />
     </task>
+    <task id="LOCAL-00001" summary="JSP">
+      <created>1635782041202</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1635782041202</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="JSP" />
+    <option name="LAST_COMMIT_MESSAGE" value="JSP" />
   </component>
 </project>
