@@ -9,7 +9,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="05692297-d299-498c-bd5e-490706e76073" name="Changes" comment="JSP" />
+    <list default="true" id="05692297-d299-498c-bd5e-490706e76073" name="Changes" comment="JSP">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -67,6 +69,7 @@
       <workItem from="1635766896192" duration="3810000" />
       <workItem from="1635780561525" duration="521000" />
       <workItem from="1635781180342" duration="2460000" />
+      <workItem from="1635837771066" duration="1723000" />
     </task>
     <task id="LOCAL-00001" summary="JSP">
       <created>1635782041202</created>
@@ -89,7 +92,14 @@
       <option name="project" value="LOCAL" />
       <updated>1635783508829</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="JSP">
+      <created>1635837820911</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1635837820911</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -117,6 +127,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="JSP" />
