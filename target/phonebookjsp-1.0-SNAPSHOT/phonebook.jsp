@@ -3,11 +3,12 @@
 <%@ page import="java.util.List" %>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <!DOCTYPE html>
-<html lang="">
+<html lang="ru">
 <head>
-    <c:set var="contactList" value='${requestScope["contactList"]}' />
-    <c:set var="currentContact" value='${requestScope["currentContact"]}' />
-
+    <%
+        List<Contact> contactList = (List<Contact>) request.getAttribute("contactList");
+        Contact currentContact = (Contact) request.getAttribute("currentContact");
+    %>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>
     <link rel="stylesheet" type="text/css" href="css/phonebook.css"/>
