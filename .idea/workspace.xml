@@ -11,6 +11,11 @@
   <component name="ChangeListManager">
     <list default="true" id="05692297-d299-498c-bd5e-490706e76073" name="Changes" comment="JSP">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/academits/servlet/DeleteContactServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/academits/servlet/DeleteContactServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/phonebook.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/phonebook.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/academits/servlet/DeleteContactServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/academits/servlet/DeleteContactServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/phonebookjsp-1.0-SNAPSHOT/WEB-INF/classes/ru/academits/servlet/DeleteContactServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/phonebookjsp-1.0-SNAPSHOT/WEB-INF/classes/ru/academits/servlet/DeleteContactServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/phonebookjsp-1.0-SNAPSHOT/phonebook.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/phonebookjsp-1.0-SNAPSHOT/phonebook.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +74,9 @@
       <workItem from="1635766896192" duration="3810000" />
       <workItem from="1635780561525" duration="521000" />
       <workItem from="1635781180342" duration="2460000" />
-      <workItem from="1635837771066" duration="1723000" />
+      <workItem from="1635837771066" duration="14957000" />
+      <workItem from="1635928692932" duration="726000" />
+      <workItem from="1635934824507" duration="3094000" />
     </task>
     <task id="LOCAL-00001" summary="JSP">
       <created>1635782041202</created>
@@ -99,7 +106,14 @@
       <option name="project" value="LOCAL" />
       <updated>1635837820911</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="JSP">
+      <created>1635839614479</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1635839614479</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

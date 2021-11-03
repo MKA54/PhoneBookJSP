@@ -38,7 +38,6 @@
                 </label>
             </th>
             <th>№</th>
-            <th>id</th>
             <th>Фамилия</th>
             <th>Имя</th>
             <th>Телефон</th>
@@ -46,43 +45,39 @@
         </tr>
         </thead>
         <tbody>
-        <% int number = 0;
-            for (Contact contact : contactList) {
-                number++;
-        %>
-        <tr>
-            <td>
-                <label class="select-me-label">
-                    <input type="checkbox" class="select-me" />
-                </label>
-            </td>
-            <td>
-                <% out.println(number); %>
-            </td>
-            <td>
-                <% out.println(contact.getId()); %>
-            </td>
-            <td>
-                <% out.println(contact.getFirstName()); %>
-            </td>
-            <td>
-                <% out.println(contact.getPhone()); %>
-            </td>
-            <td>
-                <form action="deleteContact" method="POST">
-                    <button type='submit' name="id"
-                            value="<%=contact.getId() %>" class='btn btn-primary'>Удалить
-                    </button>
-                </form>
-            </td>
-        </tr>
-
-        <%}%>
+        <c:forEach var="field" items="${contactList}" varStatus="number">
+            <tr>
+                <td>
+                    <label class="select-me-label">
+                        <input type="checkbox" class="select-me"/>
+                    </label>
+                </td>
+                <td>
+                    <c:out value="${number.count}"/>
+                </td>
+                <td>
+                    <c:out value="${field.firstName}"/>
+                </td>
+                <td>
+                    <c:out value="${field.lastName}"/>
+                </td>
+                <td>
+                    <c:out value="${field.phone}"/>
+                </td>
+                <td>
+                    <form action="deleteContact" method="POST">
+                        <button type='submit' name="id"
+                                value="${field.id}" class='btn btn-primary'>Удалить
+                        </button>
+                    </form>
+                </td>
+            </tr>
+        </c:forEach>
         </tbody>
     </table>
 
     <form action="deleteContacts" method="POST">
-        <button type="submit" class="btn btn-primary" value="<%=contact.getId() %>">Удалить выбранные</button>
+        <button type="submit" class="btn btn-primary" value="">Удалить выбранные</button>
     </form>
 
     <br>
