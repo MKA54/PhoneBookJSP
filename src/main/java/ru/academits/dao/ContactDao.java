@@ -5,7 +5,6 @@ import ru.academits.service.ContactValidation;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.concurrent.atomic.AtomicInteger;
 
 public class ContactDao {
     private final List<Contact> contactList = new ArrayList<>();

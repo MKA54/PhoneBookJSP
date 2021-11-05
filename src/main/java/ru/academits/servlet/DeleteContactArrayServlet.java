@@ -7,16 +7,26 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
-import java.util.Arrays;
 import java.util.stream.Collectors;
 
-public class DeleteContactsServlet extends HttpServlet {
+public class DeleteContactArrayServlet extends HttpServlet {
     private final ContactService contactService = PhoneBook.contactService;
 
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws IOException {
         String contactParams = req.getReader().lines().collect(Collectors.joining(System.lineSeparator()));
 
-        System.out.println("Servlet open");
+        System.out.println("Servlet open DeleteContactArrayServlet");
+
+        String[] pairs = contactParams.split("&");
+
+        for (String pair : pairs) {
+            int idx = pair.indexOf("=");
+
+            String s = pair.substring(idx + 1);
+            int id = Integer.parseInt(s);
+
+            contactService.deleteContact(id);
+        }
 
         resp.sendRedirect("/phonebook");
     }

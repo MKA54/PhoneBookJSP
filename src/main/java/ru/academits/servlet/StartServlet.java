@@ -1,9 +1,7 @@
 package ru.academits.servlet;
 
 import ru.academits.PhoneBook;
-import ru.academits.model.Contact;
 import ru.academits.service.ContactService;
-import ru.academits.service.ContactValidation;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;

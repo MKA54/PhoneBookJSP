@@ -11,10 +11,21 @@
   <component name="ChangeListManager">
     <list default="true" id="05692297-d299-498c-bd5e-490706e76073" name="Changes" comment="JSP">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/academits/dao/ContactDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/academits/dao/ContactDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/academits/servlet/DeleteContactServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/academits/servlet/DeleteContactServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/academits/servlet/DeleteContactsServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/academits/servlet/DeleteContactArrayServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/academits/servlet/StartServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/academits/servlet/StartServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/phonebook.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/phonebook.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/academits/dao/ContactDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/academits/dao/ContactDao.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/ru/academits/servlet/DeleteContactServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/academits/servlet/DeleteContactServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/academits/servlet/DeleteContactsServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/academits/servlet/StartServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/academits/servlet/StartServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/phonebookjsp-1.0-SNAPSHOT/WEB-INF/classes/ru/academits/dao/ContactDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/phonebookjsp-1.0-SNAPSHOT/WEB-INF/classes/ru/academits/dao/ContactDao.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/phonebookjsp-1.0-SNAPSHOT/WEB-INF/classes/ru/academits/servlet/DeleteContactServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/phonebookjsp-1.0-SNAPSHOT/WEB-INF/classes/ru/academits/servlet/DeleteContactServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/phonebookjsp-1.0-SNAPSHOT/WEB-INF/classes/ru/academits/servlet/DeleteContactsServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/phonebookjsp-1.0-SNAPSHOT/WEB-INF/classes/ru/academits/servlet/StartServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/phonebookjsp-1.0-SNAPSHOT/WEB-INF/classes/ru/academits/servlet/StartServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/phonebookjsp-1.0-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/phonebookjsp-1.0-SNAPSHOT/WEB-INF/web.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/phonebookjsp-1.0-SNAPSHOT/phonebook.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/phonebookjsp-1.0-SNAPSHOT/phonebook.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -76,7 +87,11 @@
       <workItem from="1635781180342" duration="2460000" />
       <workItem from="1635837771066" duration="14957000" />
       <workItem from="1635928692932" duration="726000" />
-      <workItem from="1635934824507" duration="3094000" />
+      <workItem from="1635934824507" duration="3377000" />
+      <workItem from="1636024715600" duration="3300000" />
+      <workItem from="1636036129983" duration="5115000" />
+      <workItem from="1636080813356" duration="8935000" />
+      <workItem from="1636113581582" duration="586000" />
     </task>
     <task id="LOCAL-00001" summary="JSP">
       <created>1635782041202</created>
@@ -113,7 +128,28 @@
       <option name="project" value="LOCAL" />
       <updated>1635839614479</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="JSP">
+      <created>1635941307642</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1635941307642</updated>
+    </task>
+    <task id="LOCAL-00007" summary="JSP">
+      <created>1635941458124</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1635941458124</updated>
+    </task>
+    <task id="LOCAL-00008" summary="JSP">
+      <created>1635941516591</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1635941516591</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

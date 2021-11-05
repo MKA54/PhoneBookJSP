@@ -22,8 +22,8 @@
   </servlet>
 
   <servlet>
-    <servlet-name>DeleteContactsServlet</servlet-name>
-    <servlet-class>ru.academits.servlet.DeleteContactsServlet</servlet-class>
+    <servlet-name>DeleteContactArrayServlet</servlet-name>
+    <servlet-class>ru.academits.servlet.DeleteContactArrayServlet</servlet-class>
   </servlet>
 
   <servlet-mapping>
@@ -42,7 +42,7 @@
   </servlet-mapping>
 
   <servlet-mapping>
-    <servlet-name>DeleteContactsServlet</servlet-name>
-    <url-pattern>/deleteContacts</url-pattern>
+    <servlet-name>DeleteContactArrayServlet</servlet-name>
+    <url-pattern>/deleteContactArray</url-pattern>
   </servlet-mapping>
 </web-app>
