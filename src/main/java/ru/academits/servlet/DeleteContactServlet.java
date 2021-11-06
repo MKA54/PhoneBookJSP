@@ -15,14 +15,16 @@ public class DeleteContactServlet extends HttpServlet {
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws IOException {
         String contactParams = req.getReader().lines().collect(Collectors.joining(System.lineSeparator()));
 
-        System.out.println("Servlet open DeleteContactServlet");
+        String[] pairs = contactParams.split("&");
 
-        int idx = contactParams.indexOf("=");
+        for (String pair : pairs) {
+            int idx = pair.indexOf("=");
 
-        contactParams = contactParams.substring(idx + 1);
-        int id = Integer.parseInt(contactParams);
+            String s = pair.substring(idx + 1);
+            int id = Integer.parseInt(s);
 
-        contactService.deleteContact(id);
+            contactService.deleteContact(id);
+        }
 
         resp.sendRedirect("/phonebook");
     }

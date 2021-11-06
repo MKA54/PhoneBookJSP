@@ -26,7 +26,7 @@
         <button class="btn btn-primary">Сбросить фильтр</button>
     </div>
 
-    <form action="deleteContactArray" method="POST">
+    <form action="deleteContact" method="POST">
         <table class="table table-bordered contact-table">
             <thead>
             <tr>
@@ -47,7 +47,7 @@
                 <tr>
                     <td>
                         <label class="select-me-label">
-                            <input type="checkbox" name="selected" value="${field.id}" class="select-me"/>
+                            <input type="checkbox" name="id" value="${field.id}" class="select-me"/>
                         </label>
                     </td>
                     <td>
@@ -63,11 +63,9 @@
                         <c:out value="${field.phone}"/>
                     </td>
                     <td>
-                        <form action="deleteContact" method="POST">
-                            <button type='submit' name="id"
-                                    value="${field.id}" class='btn btn-primary'>Удалить
-                            </button>
-                        </form>
+                        <button type='submit' name="id"
+                                value="${field.id}" class='btn btn-primary'>Удалить
+                        </button>
                     </td>
                 </tr>
             </c:forEach>

@@ -21,11 +21,6 @@
     <servlet-class>ru.academits.servlet.DeleteContactServlet</servlet-class>
   </servlet>
 
-  <servlet>
-    <servlet-name>DeleteContactArrayServlet</servlet-name>
-    <servlet-class>ru.academits.servlet.DeleteContactArrayServlet</servlet-class>
-  </servlet>
-
   <servlet-mapping>
     <servlet-name>AddContactsServlet</servlet-name>
     <url-pattern>/add</url-pattern>
@@ -39,10 +34,5 @@
   <servlet-mapping>
     <servlet-name>DeleteContactServlet</servlet-name>
     <url-pattern>/deleteContact</url-pattern>
-  </servlet-mapping>
-
-  <servlet-mapping>
-    <servlet-name>DeleteContactArrayServlet</servlet-name>
-    <url-pattern>/deleteContactArray</url-pattern>
   </servlet-mapping>
 </web-app>
