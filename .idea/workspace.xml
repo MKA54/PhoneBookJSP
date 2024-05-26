@@ -10,17 +10,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="05692297-d299-498c-bd5e-490706e76073" name="Changes" comment="JSP">
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/phonebookjsp_war.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/phonebookjsp_war.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/phonebookjsp_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/phonebookjsp_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/academits/servlet/DeleteContactArrayServlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/academits/servlet/DeleteContactServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/academits/servlet/DeleteContactServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/phonebook.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/phonebook.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/academits/servlet/DeleteContactArrayServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/academits/servlet/DeleteContactServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/academits/servlet/DeleteContactServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/phonebookjsp-1.0-SNAPSHOT/WEB-INF/classes/ru/academits/servlet/DeleteContactArrayServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/phonebookjsp-1.0-SNAPSHOT/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/target/phonebookjsp-1.0-SNAPSHOT/META-INF/MANIFEST.MF" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/phonebookjsp-1.0-SNAPSHOT/WEB-INF/classes/ru/academits/servlet/DeleteContactServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/phonebookjsp-1.0-SNAPSHOT/WEB-INF/classes/ru/academits/servlet/DeleteContactServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/phonebookjsp-1.0-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/phonebookjsp-1.0-SNAPSHOT/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/phonebookjsp-1.0-SNAPSHOT/phonebook.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/phonebookjsp-1.0-SNAPSHOT/phonebook.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,22 +39,24 @@
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="208f4LDhC6qspNkKc9bUgpSFeAe" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Global Libraries" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.2" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/Mka91/portal",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -87,7 +84,17 @@
       <workItem from="1636080813356" duration="8935000" />
       <workItem from="1636113581582" duration="807000" />
       <workItem from="1636186738441" duration="1483000" />
-      <workItem from="1636201627470" duration="2827000" />
+      <workItem from="1636201627470" duration="3014000" />
+      <workItem from="1636281530497" duration="589000" />
+      <workItem from="1637128509976" duration="82000" />
+      <workItem from="1637129886197" duration="84000" />
+      <workItem from="1668066195366" duration="3611000" />
+      <workItem from="1668082192619" duration="39000" />
+      <workItem from="1668083782942" duration="276000" />
+      <workItem from="1668084329543" duration="9000" />
+      <workItem from="1668087403902" duration="38000" />
+      <workItem from="1669350593060" duration="577000" />
+      <workItem from="1688479660277" duration="7000" />
     </task>
     <task id="LOCAL-00001" summary="JSP">
       <created>1635782041202</created>
@@ -159,7 +166,14 @@
       <option name="project" value="LOCAL" />
       <updated>1636115589994</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="JSP">
+      <created>1636205901806</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1636205901806</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -187,7 +201,6 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="JSP" />
